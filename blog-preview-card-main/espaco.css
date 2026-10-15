@@ -1,0 +1,100 @@
+/* Configurando as fontes */
+@font-face {
+    font-family: "Figtree";
+    src: url("./assets/fonts/static/Figtree-Medium.ttf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Figtree";
+    src: url("./assets/fonts/static/Figtree-ExtraBold.ttf");
+    font-weight: 800;
+}
+
+
+/* Limpando os estilos padrão do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Configurações gerais da página */
+body {
+    min-height: 100vh;
+
+    background-color: hsl(47, 88%, 63%);
+
+    font-family: "Figtree", sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Cartão */
+article {
+    width: 388px;
+
+    background-color: hsl(0, 0%, 100%);
+
+    border: 1px solid hsl(0, 0%, 7%);
+    border-radius: 20px;
+
+    padding: 24px;
+
+    box-shadow: 8px 8px 0 hsl(0, 0%, 7%);
+}
+
+
+/* Imagem principal */
+article img {
+    width: 100%;
+
+    border-radius: 12px;
+
+    display: block;
+}
+
+
+/* Texto */
+p {
+    color: hsl(0, 0%, 7%);
+}
+
+
+/* Rodapé */
+footer {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+footer img {
+    width: 32px;
+    height: 32px;
+
+    border-radius: 50%;
+}
+
+footer p {
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.category {
+    display: inline-block;
+
+    background-color: hsl(47, 88%, 63%);
+
+    padding: 4px 12px;
+
+    border-radius: 4px;
+
+    font-size: 14px;
+    font-weight: 800;
+
+    margin-top: 24px;
+}
